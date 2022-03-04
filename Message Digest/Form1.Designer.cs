@@ -1,5 +1,5 @@
 ﻿
-namespace Digital_Signature
+namespace Message_Digest
 {
     partial class Form1
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Digital_Signature
+namespace Message_Digest
 {
     static class Program
     {

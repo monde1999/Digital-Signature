@@ -6,7 +6,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Windows.Forms;
 
-namespace Digital_Signature
+namespace Message_Digest
 {
     public partial class Form1 : Form
     {
