@@ -67,9 +67,9 @@ namespace Digital_Signature
             this.button_comp_md5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_comp_md5.Location = new System.Drawing.Point(308, 154);
             this.button_comp_md5.Name = "button_comp_md5";
-            this.button_comp_md5.Size = new System.Drawing.Size(154, 54);
+            this.button_comp_md5.Size = new System.Drawing.Size(166, 54);
             this.button_comp_md5.TabIndex = 1;
-            this.button_comp_md5.Text = "Select MD File";
+            this.button_comp_md5.Text = "Select MD5 File";
             this.button_comp_md5.UseVisualStyleBackColor = true;
             this.button_comp_md5.Click += new System.EventHandler(this.button_comp_md5_Click);
             // 
@@ -78,9 +78,9 @@ namespace Digital_Signature
             this.button_comp_sha1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_comp_sha1.Location = new System.Drawing.Point(308, 229);
             this.button_comp_sha1.Name = "button_comp_sha1";
-            this.button_comp_sha1.Size = new System.Drawing.Size(154, 54);
+            this.button_comp_sha1.Size = new System.Drawing.Size(166, 54);
             this.button_comp_sha1.TabIndex = 2;
-            this.button_comp_sha1.Text = "Select SHA File";
+            this.button_comp_sha1.Text = "Select SHA-1 File";
             this.button_comp_sha1.UseVisualStyleBackColor = true;
             this.button_comp_sha1.Click += new System.EventHandler(this.button_comp_sha1_Click);
             // 
@@ -90,9 +90,9 @@ namespace Digital_Signature
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(22, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 24);
+            this.label1.Size = new System.Drawing.Size(227, 24);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Generate Digital Signature";
+            this.label1.Text = "Generate Message Digest";
             // 
             // text_box_file_location
             // 
@@ -142,9 +142,9 @@ namespace Digital_Signature
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(304, 83);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(228, 24);
+            this.label2.Size = new System.Drawing.Size(227, 24);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Compare Digital Signature";
+            this.label2.Text = "Compare Message Digest";
             // 
             // label3
             // 
@@ -267,7 +267,7 @@ namespace Digital_Signature
             this.MaximumSize = new System.Drawing.Size(659, 450);
             this.MinimumSize = new System.Drawing.Size(659, 450);
             this.Name = "Form1";
-            this.Text = "Digital Signature";
+            this.Text = "Message Digest";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
